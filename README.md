@@ -1,6 +1,6 @@
 
-# SDWebImage
-swift语言写的图片加载库SDWebImage
+# XYWebImage
+swift语言写的图片加载库XYWebImage
 
 通过UIImageView的extension向外提供调用方法，调用方式很简单：
 例：
