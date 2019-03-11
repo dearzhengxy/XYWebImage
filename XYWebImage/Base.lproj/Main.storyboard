@@ -13,23 +13,23 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SDWebImage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="XYWebImage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPb-Yi-Ero">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQZ-g0-pc1">
                                 <rect key="frame" x="141.5" y="318.5" width="92" height="30"/>
                                 <state key="normal" title="点击加载图片"/>
                                 <connections>
-                                    <action selector="imageBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UUY-RF-IzU"/>
+                                    <action selector="imageBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Sk-VB-a2J"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="nPb-Yi-Ero" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Sr-Ge-Gw9"/>
-                            <constraint firstItem="nPb-Yi-Ero" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ff9-Sh-Ra8"/>
+                            <constraint firstItem="ZQZ-g0-pc1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9yR-dZ-97I"/>
+                            <constraint firstItem="ZQZ-g0-pc1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RYZ-Zp-FWJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

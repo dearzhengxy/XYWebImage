@@ -7,52 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C5768512228D1E30052EE58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5768502228D1E30052EE58 /* AppDelegate.swift */; };
-		9C5768532228D1E30052EE58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5768522228D1E30052EE58 /* ViewController.swift */; };
-		9C5768562228D1E30052EE58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5768542228D1E30052EE58 /* Main.storyboard */; };
-		9C5768582228D1E40052EE58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5768572228D1E40052EE58 /* Assets.xcassets */; };
-		9C57685B2228D1E40052EE58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5768592228D1E40052EE58 /* LaunchScreen.storyboard */; };
-		9C5768662228D1E40052EE58 /* SDWebImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5768652228D1E40052EE58 /* SDWebImageUITests.swift */; };
-		9C5768742228D2FB0052EE58 /* XYImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5768732228D2FB0052EE58 /* XYImageView.swift */; };
-		9C5768762228D3700052EE58 /* LoadImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5768752228D3700052EE58 /* LoadImageOperation.swift */; };
-		9C5768782228E1990052EE58 /* XYImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5768772228E1990052EE58 /* XYImageCache.swift */; };
+		9C3F9B1D2236018800190D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F9B1C2236018800190D5E /* AppDelegate.swift */; };
+		9C3F9B1F2236018900190D5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F9B1E2236018900190D5E /* ViewController.swift */; };
+		9C3F9B222236018900190D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3F9B202236018900190D5E /* Main.storyboard */; };
+		9C3F9B242236018900190D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3F9B232236018900190D5E /* Assets.xcassets */; };
+		9C3F9B272236018900190D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3F9B252236018900190D5E /* LaunchScreen.storyboard */; };
+		9C3F9B322236018900190D5E /* XYWebImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F9B312236018900190D5E /* XYWebImageUITests.swift */; };
+		9C3F9B40223601DC00190D5E /* LoadImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F9B3D223601DC00190D5E /* LoadImageOperation.swift */; };
+		9C3F9B41223601DC00190D5E /* XYImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F9B3E223601DC00190D5E /* XYImageView.swift */; };
+		9C3F9B42223601DC00190D5E /* XYImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F9B3F223601DC00190D5E /* XYImageCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9C5768622228D1E40052EE58 /* PBXContainerItemProxy */ = {
+		9C3F9B2E2236018900190D5E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9C5768452228D1E30052EE58 /* Project object */;
+			containerPortal = 9C3F9B112236018800190D5E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9C57684C2228D1E30052EE58;
-			remoteInfo = SDWebImage;
+			remoteGlobalIDString = 9C3F9B182236018800190D5E;
+			remoteInfo = XYWebImage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C57684D2228D1E30052EE58 /* SDWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C5768502228D1E30052EE58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C5768522228D1E30052EE58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9C5768552228D1E30052EE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C5768572228D1E40052EE58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9C57685A2228D1E40052EE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9C57685C2228D1E40052EE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C5768612228D1E40052EE58 /* SDWebImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDWebImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C5768652228D1E40052EE58 /* SDWebImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageUITests.swift; sourceTree = "<group>"; };
-		9C5768672228D1E40052EE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C5768732228D2FB0052EE58 /* XYImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYImageView.swift; sourceTree = "<group>"; };
-		9C5768752228D3700052EE58 /* LoadImageOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageOperation.swift; sourceTree = "<group>"; };
-		9C5768772228E1990052EE58 /* XYImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYImageCache.swift; sourceTree = "<group>"; };
+		9C3F9B192236018800190D5E /* XYWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3F9B1C2236018800190D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C3F9B1E2236018900190D5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C3F9B212236018900190D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C3F9B232236018900190D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C3F9B262236018900190D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C3F9B282236018900190D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3F9B2D2236018900190D5E /* XYWebImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYWebImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3F9B312236018900190D5E /* XYWebImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYWebImageUITests.swift; sourceTree = "<group>"; };
+		9C3F9B332236018900190D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3F9B3D223601DC00190D5E /* LoadImageOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadImageOperation.swift; sourceTree = "<group>"; };
+		9C3F9B3E223601DC00190D5E /* XYImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYImageView.swift; sourceTree = "<group>"; };
+		9C3F9B3F223601DC00190D5E /* XYImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYImageCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9C57684A2228D1E30052EE58 /* Frameworks */ = {
+		9C3F9B162236018800190D5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C57685E2228D1E40052EE58 /* Frameworks */ = {
+		9C3F9B2A2236018900190D5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,53 +62,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9C5768442228D1E30052EE58 = {
+		9C3F9B102236018800190D5E = {
 			isa = PBXGroup;
 			children = (
-				9C57684F2228D1E30052EE58 /* SDWebImage */,
-				9C5768642228D1E40052EE58 /* SDWebImageUITests */,
-				9C57684E2228D1E30052EE58 /* Products */,
+				9C3F9B1B2236018800190D5E /* XYWebImage */,
+				9C3F9B302236018900190D5E /* XYWebImageUITests */,
+				9C3F9B1A2236018800190D5E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9C57684E2228D1E30052EE58 /* Products */ = {
+		9C3F9B1A2236018800190D5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C57684D2228D1E30052EE58 /* SDWebImage.app */,
-				9C5768612228D1E40052EE58 /* SDWebImageUITests.xctest */,
+				9C3F9B192236018800190D5E /* XYWebImage.app */,
+				9C3F9B2D2236018900190D5E /* XYWebImageUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C57684F2228D1E30052EE58 /* SDWebImage */ = {
+		9C3F9B1B2236018800190D5E /* XYWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				9C5768722228D2E70052EE58 /* XYImageTool */,
-				9C5768502228D1E30052EE58 /* AppDelegate.swift */,
-				9C5768522228D1E30052EE58 /* ViewController.swift */,
-				9C5768542228D1E30052EE58 /* Main.storyboard */,
-				9C5768572228D1E40052EE58 /* Assets.xcassets */,
-				9C5768592228D1E40052EE58 /* LaunchScreen.storyboard */,
-				9C57685C2228D1E40052EE58 /* Info.plist */,
+				9C3F9B3C223601DC00190D5E /* XYImageTool */,
+				9C3F9B1C2236018800190D5E /* AppDelegate.swift */,
+				9C3F9B1E2236018900190D5E /* ViewController.swift */,
+				9C3F9B202236018900190D5E /* Main.storyboard */,
+				9C3F9B232236018900190D5E /* Assets.xcassets */,
+				9C3F9B252236018900190D5E /* LaunchScreen.storyboard */,
+				9C3F9B282236018900190D5E /* Info.plist */,
 			);
-			path = SDWebImage;
+			path = XYWebImage;
 			sourceTree = "<group>";
 		};
-		9C5768642228D1E40052EE58 /* SDWebImageUITests */ = {
+		9C3F9B302236018900190D5E /* XYWebImageUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9C5768652228D1E40052EE58 /* SDWebImageUITests.swift */,
-				9C5768672228D1E40052EE58 /* Info.plist */,
+				9C3F9B312236018900190D5E /* XYWebImageUITests.swift */,
+				9C3F9B332236018900190D5E /* Info.plist */,
 			);
-			path = SDWebImageUITests;
+			path = XYWebImageUITests;
 			sourceTree = "<group>";
 		};
-		9C5768722228D2E70052EE58 /* XYImageTool */ = {
+		9C3F9B3C223601DC00190D5E /* XYImageTool */ = {
 			isa = PBXGroup;
 			children = (
-				9C5768732228D2FB0052EE58 /* XYImageView.swift */,
-				9C5768752228D3700052EE58 /* LoadImageOperation.swift */,
-				9C5768772228E1990052EE58 /* XYImageCache.swift */,
+				9C3F9B3D223601DC00190D5E /* LoadImageOperation.swift */,
+				9C3F9B3E223601DC00190D5E /* XYImageView.swift */,
+				9C3F9B3F223601DC00190D5E /* XYImageCache.swift */,
 			);
 			path = XYImageTool;
 			sourceTree = "<group>";
@@ -116,61 +116,61 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C57684C2228D1E30052EE58 /* SDWebImage */ = {
+		9C3F9B182236018800190D5E /* XYWebImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C57686A2228D1E40052EE58 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildConfigurationList = 9C3F9B362236018900190D5E /* Build configuration list for PBXNativeTarget "XYWebImage" */;
 			buildPhases = (
-				9C5768492228D1E30052EE58 /* Sources */,
-				9C57684A2228D1E30052EE58 /* Frameworks */,
-				9C57684B2228D1E30052EE58 /* Resources */,
+				9C3F9B152236018800190D5E /* Sources */,
+				9C3F9B162236018800190D5E /* Frameworks */,
+				9C3F9B172236018800190D5E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SDWebImage;
-			productName = SDWebImage;
-			productReference = 9C57684D2228D1E30052EE58 /* SDWebImage.app */;
+			name = XYWebImage;
+			productName = XYWebImage;
+			productReference = 9C3F9B192236018800190D5E /* XYWebImage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9C5768602228D1E40052EE58 /* SDWebImageUITests */ = {
+		9C3F9B2C2236018900190D5E /* XYWebImageUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C57686D2228D1E40052EE58 /* Build configuration list for PBXNativeTarget "SDWebImageUITests" */;
+			buildConfigurationList = 9C3F9B392236018900190D5E /* Build configuration list for PBXNativeTarget "XYWebImageUITests" */;
 			buildPhases = (
-				9C57685D2228D1E40052EE58 /* Sources */,
-				9C57685E2228D1E40052EE58 /* Frameworks */,
-				9C57685F2228D1E40052EE58 /* Resources */,
+				9C3F9B292236018900190D5E /* Sources */,
+				9C3F9B2A2236018900190D5E /* Frameworks */,
+				9C3F9B2B2236018900190D5E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9C5768632228D1E40052EE58 /* PBXTargetDependency */,
+				9C3F9B2F2236018900190D5E /* PBXTargetDependency */,
 			);
-			name = SDWebImageUITests;
-			productName = SDWebImageUITests;
-			productReference = 9C5768612228D1E40052EE58 /* SDWebImageUITests.xctest */;
+			name = XYWebImageUITests;
+			productName = XYWebImageUITests;
+			productReference = 9C3F9B2D2236018900190D5E /* XYWebImageUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9C5768452228D1E30052EE58 /* Project object */ = {
+		9C3F9B112236018800190D5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = MAC005;
 				TargetAttributes = {
-					9C57684C2228D1E30052EE58 = {
+					9C3F9B182236018800190D5E = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					9C5768602228D1E40052EE58 = {
+					9C3F9B2C2236018900190D5E = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 9C57684C2228D1E30052EE58;
+						TestTargetID = 9C3F9B182236018800190D5E;
 					};
 				};
 			};
-			buildConfigurationList = 9C5768482228D1E30052EE58 /* Build configuration list for PBXProject "SDWebImage" */;
+			buildConfigurationList = 9C3F9B142236018800190D5E /* Build configuration list for PBXProject "XYWebImage" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -178,29 +178,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 9C5768442228D1E30052EE58;
-			productRefGroup = 9C57684E2228D1E30052EE58 /* Products */;
+			mainGroup = 9C3F9B102236018800190D5E;
+			productRefGroup = 9C3F9B1A2236018800190D5E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C57684C2228D1E30052EE58 /* SDWebImage */,
-				9C5768602228D1E40052EE58 /* SDWebImageUITests */,
+				9C3F9B182236018800190D5E /* XYWebImage */,
+				9C3F9B2C2236018900190D5E /* XYWebImageUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9C57684B2228D1E30052EE58 /* Resources */ = {
+		9C3F9B172236018800190D5E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C57685B2228D1E40052EE58 /* LaunchScreen.storyboard in Resources */,
-				9C5768582228D1E40052EE58 /* Assets.xcassets in Resources */,
-				9C5768562228D1E30052EE58 /* Main.storyboard in Resources */,
+				9C3F9B272236018900190D5E /* LaunchScreen.storyboard in Resources */,
+				9C3F9B242236018900190D5E /* Assets.xcassets in Resources */,
+				9C3F9B222236018900190D5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C57685F2228D1E40052EE58 /* Resources */ = {
+		9C3F9B2B2236018900190D5E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,49 +210,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9C5768492228D1E30052EE58 /* Sources */ = {
+		9C3F9B152236018800190D5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C5768742228D2FB0052EE58 /* XYImageView.swift in Sources */,
-				9C5768782228E1990052EE58 /* XYImageCache.swift in Sources */,
-				9C5768532228D1E30052EE58 /* ViewController.swift in Sources */,
-				9C5768512228D1E30052EE58 /* AppDelegate.swift in Sources */,
-				9C5768762228D3700052EE58 /* LoadImageOperation.swift in Sources */,
+				9C3F9B40223601DC00190D5E /* LoadImageOperation.swift in Sources */,
+				9C3F9B42223601DC00190D5E /* XYImageCache.swift in Sources */,
+				9C3F9B1F2236018900190D5E /* ViewController.swift in Sources */,
+				9C3F9B1D2236018800190D5E /* AppDelegate.swift in Sources */,
+				9C3F9B41223601DC00190D5E /* XYImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C57685D2228D1E40052EE58 /* Sources */ = {
+		9C3F9B292236018900190D5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C5768662228D1E40052EE58 /* SDWebImageUITests.swift in Sources */,
+				9C3F9B322236018900190D5E /* XYWebImageUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9C5768632228D1E40052EE58 /* PBXTargetDependency */ = {
+		9C3F9B2F2236018900190D5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C57684C2228D1E30052EE58 /* SDWebImage */;
-			targetProxy = 9C5768622228D1E40052EE58 /* PBXContainerItemProxy */;
+			target = 9C3F9B182236018800190D5E /* XYWebImage */;
+			targetProxy = 9C3F9B2E2236018900190D5E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9C5768542228D1E30052EE58 /* Main.storyboard */ = {
+		9C3F9B202236018900190D5E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9C5768552228D1E30052EE58 /* Base */,
+				9C3F9B212236018900190D5E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9C5768592228D1E40052EE58 /* LaunchScreen.storyboard */ = {
+		9C3F9B252236018900190D5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9C57685A2228D1E40052EE58 /* Base */,
+				9C3F9B262236018900190D5E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9C5768682228D1E40052EE58 /* Debug */ = {
+		9C3F9B342236018900190D5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -321,7 +321,7 @@
 			};
 			name = Debug;
 		};
-		9C5768692228D1E40052EE58 /* Release */ = {
+		9C3F9B352236018900190D5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,115 +376,115 @@
 			};
 			name = Release;
 		};
-		9C57686B2228D1E40052EE58 /* Debug */ = {
+		9C3F9B372236018900190D5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CP6YU2UZDQ;
-				INFOPLIST_FILE = SDWebImage/Info.plist;
+				INFOPLIST_FILE = XYWebImage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.huatongsilver.SDWebImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatongsilver.XYWebImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		9C57686C2228D1E40052EE58 /* Release */ = {
+		9C3F9B382236018900190D5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CP6YU2UZDQ;
-				INFOPLIST_FILE = SDWebImage/Info.plist;
+				INFOPLIST_FILE = XYWebImage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.huatongsilver.SDWebImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatongsilver.XYWebImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		9C57686E2228D1E40052EE58 /* Debug */ = {
+		9C3F9B3A2236018900190D5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CP6YU2UZDQ;
-				INFOPLIST_FILE = SDWebImageUITests/Info.plist;
+				INFOPLIST_FILE = XYWebImageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.huatongsilver.SDWebImageUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatongsilver.XYWebImageUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SDWebImage;
+				TEST_TARGET_NAME = XYWebImage;
 			};
 			name = Debug;
 		};
-		9C57686F2228D1E40052EE58 /* Release */ = {
+		9C3F9B3B2236018900190D5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CP6YU2UZDQ;
-				INFOPLIST_FILE = SDWebImageUITests/Info.plist;
+				INFOPLIST_FILE = XYWebImageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.huatongsilver.SDWebImageUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatongsilver.XYWebImageUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SDWebImage;
+				TEST_TARGET_NAME = XYWebImage;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C5768482228D1E30052EE58 /* Build configuration list for PBXProject "SDWebImage" */ = {
+		9C3F9B142236018800190D5E /* Build configuration list for PBXProject "XYWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C5768682228D1E40052EE58 /* Debug */,
-				9C5768692228D1E40052EE58 /* Release */,
+				9C3F9B342236018900190D5E /* Debug */,
+				9C3F9B352236018900190D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C57686A2228D1E40052EE58 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+		9C3F9B362236018900190D5E /* Build configuration list for PBXNativeTarget "XYWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C57686B2228D1E40052EE58 /* Debug */,
-				9C57686C2228D1E40052EE58 /* Release */,
+				9C3F9B372236018900190D5E /* Debug */,
+				9C3F9B382236018900190D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C57686D2228D1E40052EE58 /* Build configuration list for PBXNativeTarget "SDWebImageUITests" */ = {
+		9C3F9B392236018900190D5E /* Build configuration list for PBXNativeTarget "XYWebImageUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C57686E2228D1E40052EE58 /* Debug */,
-				9C57686F2228D1E40052EE58 /* Release */,
+				9C3F9B3A2236018900190D5E /* Debug */,
+				9C3F9B3B2236018900190D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9C5768452228D1E30052EE58 /* Project object */;
+	rootObject = 9C3F9B112236018800190D5E /* Project object */;
 }

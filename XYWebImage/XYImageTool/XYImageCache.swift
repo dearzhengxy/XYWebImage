@@ -1,6 +1,6 @@
 //
 //  SYImageCache.swift
-//  SDWebImage
+//  XYWebImage
 //
 //  Created by MAC005 on 2019/3/1.
 //  Copyright © 2019年 MAC005. All rights reserved.
